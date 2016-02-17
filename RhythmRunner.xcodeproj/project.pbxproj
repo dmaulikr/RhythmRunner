@@ -1,0 +1,517 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B24C541B1C74545300766089 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B24C541A1C74545300766089 /* AppDelegate.swift */; };
+		B24C541D1C74545300766089 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = B24C541C1C74545300766089 /* GameScene.sks */; };
+		B24C541F1C74545300766089 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = B24C541E1C74545300766089 /* GameScene.swift */; };
+		B24C54211C74545300766089 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B24C54201C74545300766089 /* GameViewController.swift */; };
+		B24C54241C74545300766089 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B24C54221C74545300766089 /* Main.storyboard */; };
+		B24C54261C74545300766089 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B24C54251C74545300766089 /* Assets.xcassets */; };
+		B24C54291C74545300766089 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B24C54271C74545300766089 /* LaunchScreen.storyboard */; };
+		B24C54341C74545300766089 /* RhythmRunnerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B24C54331C74545300766089 /* RhythmRunnerTests.swift */; };
+		B24C543F1C74545300766089 /* RhythmRunnerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B24C543E1C74545300766089 /* RhythmRunnerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B24C54301C74545300766089 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B24C540F1C74545300766089 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B24C54161C74545300766089;
+			remoteInfo = RhythmRunner;
+		};
+		B24C543B1C74545300766089 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B24C540F1C74545300766089 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B24C54161C74545300766089;
+			remoteInfo = RhythmRunner;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B24C54171C74545300766089 /* RhythmRunner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RhythmRunner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B24C541A1C74545300766089 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B24C541C1C74545300766089 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		B24C541E1C74545300766089 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		B24C54201C74545300766089 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		B24C54231C74545300766089 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B24C54251C74545300766089 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B24C54281C74545300766089 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B24C542A1C74545300766089 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B24C542F1C74545300766089 /* RhythmRunnerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RhythmRunnerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B24C54331C74545300766089 /* RhythmRunnerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RhythmRunnerTests.swift; sourceTree = "<group>"; };
+		B24C54351C74545300766089 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B24C543A1C74545300766089 /* RhythmRunnerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RhythmRunnerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B24C543E1C74545300766089 /* RhythmRunnerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RhythmRunnerUITests.swift; sourceTree = "<group>"; };
+		B24C54401C74545300766089 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B24C54141C74545300766089 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B24C542C1C74545300766089 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B24C54371C74545300766089 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B24C540E1C74545300766089 = {
+			isa = PBXGroup;
+			children = (
+				B24C54191C74545300766089 /* RhythmRunner */,
+				B24C54321C74545300766089 /* RhythmRunnerTests */,
+				B24C543D1C74545300766089 /* RhythmRunnerUITests */,
+				B24C54181C74545300766089 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B24C54181C74545300766089 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B24C54171C74545300766089 /* RhythmRunner.app */,
+				B24C542F1C74545300766089 /* RhythmRunnerTests.xctest */,
+				B24C543A1C74545300766089 /* RhythmRunnerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B24C54191C74545300766089 /* RhythmRunner */ = {
+			isa = PBXGroup;
+			children = (
+				B24C541A1C74545300766089 /* AppDelegate.swift */,
+				B24C541C1C74545300766089 /* GameScene.sks */,
+				B24C541E1C74545300766089 /* GameScene.swift */,
+				B24C54201C74545300766089 /* GameViewController.swift */,
+				B24C54221C74545300766089 /* Main.storyboard */,
+				B24C54251C74545300766089 /* Assets.xcassets */,
+				B24C54271C74545300766089 /* LaunchScreen.storyboard */,
+				B24C542A1C74545300766089 /* Info.plist */,
+			);
+			path = RhythmRunner;
+			sourceTree = "<group>";
+		};
+		B24C54321C74545300766089 /* RhythmRunnerTests */ = {
+			isa = PBXGroup;
+			children = (
+				B24C54331C74545300766089 /* RhythmRunnerTests.swift */,
+				B24C54351C74545300766089 /* Info.plist */,
+			);
+			path = RhythmRunnerTests;
+			sourceTree = "<group>";
+		};
+		B24C543D1C74545300766089 /* RhythmRunnerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B24C543E1C74545300766089 /* RhythmRunnerUITests.swift */,
+				B24C54401C74545300766089 /* Info.plist */,
+			);
+			path = RhythmRunnerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B24C54161C74545300766089 /* RhythmRunner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B24C54431C74545300766089 /* Build configuration list for PBXNativeTarget "RhythmRunner" */;
+			buildPhases = (
+				B24C54131C74545300766089 /* Sources */,
+				B24C54141C74545300766089 /* Frameworks */,
+				B24C54151C74545300766089 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RhythmRunner;
+			productName = RhythmRunner;
+			productReference = B24C54171C74545300766089 /* RhythmRunner.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B24C542E1C74545300766089 /* RhythmRunnerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B24C54461C74545300766089 /* Build configuration list for PBXNativeTarget "RhythmRunnerTests" */;
+			buildPhases = (
+				B24C542B1C74545300766089 /* Sources */,
+				B24C542C1C74545300766089 /* Frameworks */,
+				B24C542D1C74545300766089 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B24C54311C74545300766089 /* PBXTargetDependency */,
+			);
+			name = RhythmRunnerTests;
+			productName = RhythmRunnerTests;
+			productReference = B24C542F1C74545300766089 /* RhythmRunnerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B24C54391C74545300766089 /* RhythmRunnerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B24C54491C74545300766089 /* Build configuration list for PBXNativeTarget "RhythmRunnerUITests" */;
+			buildPhases = (
+				B24C54361C74545300766089 /* Sources */,
+				B24C54371C74545300766089 /* Frameworks */,
+				B24C54381C74545300766089 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B24C543C1C74545300766089 /* PBXTargetDependency */,
+			);
+			name = RhythmRunnerUITests;
+			productName = RhythmRunnerUITests;
+			productReference = B24C543A1C74545300766089 /* RhythmRunnerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B24C540F1C74545300766089 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Leviathan;
+				TargetAttributes = {
+					B24C54161C74545300766089 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					B24C542E1C74545300766089 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = B24C54161C74545300766089;
+					};
+					B24C54391C74545300766089 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = B24C54161C74545300766089;
+					};
+				};
+			};
+			buildConfigurationList = B24C54121C74545300766089 /* Build configuration list for PBXProject "RhythmRunner" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B24C540E1C74545300766089;
+			productRefGroup = B24C54181C74545300766089 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B24C54161C74545300766089 /* RhythmRunner */,
+				B24C542E1C74545300766089 /* RhythmRunnerTests */,
+				B24C54391C74545300766089 /* RhythmRunnerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B24C54151C74545300766089 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B24C541D1C74545300766089 /* GameScene.sks in Resources */,
+				B24C54291C74545300766089 /* LaunchScreen.storyboard in Resources */,
+				B24C54261C74545300766089 /* Assets.xcassets in Resources */,
+				B24C54241C74545300766089 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B24C542D1C74545300766089 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B24C54381C74545300766089 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B24C54131C74545300766089 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B24C541F1C74545300766089 /* GameScene.swift in Sources */,
+				B24C54211C74545300766089 /* GameViewController.swift in Sources */,
+				B24C541B1C74545300766089 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B24C542B1C74545300766089 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B24C54341C74545300766089 /* RhythmRunnerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B24C54361C74545300766089 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B24C543F1C74545300766089 /* RhythmRunnerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B24C54311C74545300766089 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B24C54161C74545300766089 /* RhythmRunner */;
+			targetProxy = B24C54301C74545300766089 /* PBXContainerItemProxy */;
+		};
+		B24C543C1C74545300766089 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B24C54161C74545300766089 /* RhythmRunner */;
+			targetProxy = B24C543B1C74545300766089 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B24C54221C74545300766089 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B24C54231C74545300766089 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B24C54271C74545300766089 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B24C54281C74545300766089 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B24C54411C74545300766089 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B24C54421C74545300766089 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B24C54441C74545300766089 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RhythmRunner/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Leviathan.RhythmRunner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B24C54451C74545300766089 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RhythmRunner/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Leviathan.RhythmRunner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B24C54471C74545300766089 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = RhythmRunnerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Leviathan.RhythmRunnerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RhythmRunner.app/RhythmRunner";
+			};
+			name = Debug;
+		};
+		B24C54481C74545300766089 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RhythmRunnerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Leviathan.RhythmRunnerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RhythmRunner.app/RhythmRunner";
+			};
+			name = Release;
+		};
+		B24C544A1C74545300766089 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = RhythmRunnerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Leviathan.RhythmRunnerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RhythmRunner;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		B24C544B1C74545300766089 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RhythmRunnerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Leviathan.RhythmRunnerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RhythmRunner;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B24C54121C74545300766089 /* Build configuration list for PBXProject "RhythmRunner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B24C54411C74545300766089 /* Debug */,
+				B24C54421C74545300766089 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B24C54431C74545300766089 /* Build configuration list for PBXNativeTarget "RhythmRunner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B24C54441C74545300766089 /* Debug */,
+				B24C54451C74545300766089 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B24C54461C74545300766089 /* Build configuration list for PBXNativeTarget "RhythmRunnerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B24C54471C74545300766089 /* Debug */,
+				B24C54481C74545300766089 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B24C54491C74545300766089 /* Build configuration list for PBXNativeTarget "RhythmRunnerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B24C544A1C74545300766089 /* Debug */,
+				B24C544B1C74545300766089 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B24C540F1C74545300766089 /* Project object */;
+}
