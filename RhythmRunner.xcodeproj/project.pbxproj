@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		B24C541B1C74545300766089 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B24C541A1C74545300766089 /* AppDelegate.swift */; };
-		B24C541D1C74545300766089 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = B24C541C1C74545300766089 /* GameScene.sks */; };
 		B24C541F1C74545300766089 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = B24C541E1C74545300766089 /* GameScene.swift */; };
 		B24C54211C74545300766089 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B24C54201C74545300766089 /* GameViewController.swift */; };
 		B24C54241C74545300766089 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B24C54221C74545300766089 /* Main.storyboard */; };
@@ -38,7 +37,6 @@
 /* Begin PBXFileReference section */
 		B24C54171C74545300766089 /* RhythmRunner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RhythmRunner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B24C541A1C74545300766089 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B24C541C1C74545300766089 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		B24C541E1C74545300766089 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		B24C54201C74545300766089 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		B24C54231C74545300766089 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -102,7 +100,6 @@
 			isa = PBXGroup;
 			children = (
 				B24C541A1C74545300766089 /* AppDelegate.swift */,
-				B24C541C1C74545300766089 /* GameScene.sks */,
 				B24C541E1C74545300766089 /* GameScene.swift */,
 				B24C54201C74545300766089 /* GameViewController.swift */,
 				B24C54221C74545300766089 /* Main.storyboard */,
@@ -235,7 +232,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B24C541D1C74545300766089 /* GameScene.sks in Resources */,
 				B24C54291C74545300766089 /* LaunchScreen.storyboard in Resources */,
 				B24C54261C74545300766089 /* Assets.xcassets in Resources */,
 				B24C54241C74545300766089 /* Main.storyboard in Resources */,
